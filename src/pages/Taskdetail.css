@@ -1,0 +1,131 @@
+.task-detail-page {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #111827;
+}
+
+.back-btn {
+  border: none;
+  background: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.task-detail-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+.task-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.task-detail-header h1 {
+  margin: 0;
+  color: #111827;
+}
+
+.task-detail-description {
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+.task-detail-meta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.task-detail-meta label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.task-detail-meta p {
+  color: #111827;
+  font-weight: 500;
+  margin: 0;
+}
+
+.task-detail-meta select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  color: #111827;
+  background: white;
+}
+
+.comments-section {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+  color: #111827;
+}
+
+.comments-section h2 {
+  color: #111827;
+  margin-top: 0;
+}
+
+.comment-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  color: #111827;
+  background: white;
+}
+
+.comment-form button {
+  padding: 10px 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.comment-item {
+  padding: 12px 0;
+  border-top: 1px solid #f1f5f9;
+}
+
+.comment-user {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+}
+
+.comment-content {
+  margin: 4px 0;
+  color: #111827;
+}
+
+.comment-date {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.no-comments {
+  color: #9ca3af;
+}
