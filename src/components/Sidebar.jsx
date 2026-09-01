@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import "./Sidebar.css";
+import "./sidebar.css";
 
 export default function Sidebar() {
   const { user, logout } = useAuth();
